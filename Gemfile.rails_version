@@ -16,6 +16,7 @@ if ENV['RAILS_VERSION']
     gem 'therubyracer', '~> 0.10.2'
   when /4.0$/
     gem 'rails', '~> 4.0.0'
+    gem 'rails-observers'
     # A JS runtime is required for Rails 4.0+
     gem 'therubyracer', platforms: :ruby  
   else
